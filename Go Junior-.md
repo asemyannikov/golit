@@ -195,7 +195,7 @@ type Client struct {
 }
 
 // Способ А: Именованные поля (предпочтительный)
-client1 := Client{Name: "Александр", balance: 1500.50}
+client1 := Client{Name: "Poopa", balance: 1500.50}
 
 // Способ Б: Позиционная инициализация (уязвим к изменениям структуры)
 client2 := Client{"Мария", 3000.0}
@@ -288,7 +288,7 @@ func main() {
         {ID: 3, Description: "Разработать REST API", IsDone: false},
     }
 
-    fmt.Printf("Уважаемый Александр, начинаем анализ %d задач...\n\n", len(tasks))
+    fmt.Printf("Уважаемый Poopa, начинаем анализ %d задач...\n\n", len(tasks))
 
     completed, err := ProcessTasks(tasks)
     if err != nil {
